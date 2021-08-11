@@ -1,16 +1,16 @@
-## HandGesture Detection using computer vision (v 1.0)
+## Deriving HandGesture Detection using computer vision (v 1.0)
 Computer vision is the most popular field today. 
 Hand Gesture is one of the most advance ongoing Research. 
 MediaPipe is open source library developed by google to understand the 
 fundamentals of computer vision.
 
-### Files
+## Files
 - Img-----------------> Sample Image taken from main.py output.
 - main.py ---------- > Main python program file.
 - README.md ----> This markdown file you are reading.
 - Requirement.txt--> Required imports to run the program successfully.
 
-### Description
+## Description
 Hand Gesture detection is possible using various ML model.
 Our model has two main ML model running in parallel. 
 Mediapipe is very advance cv library, developed by google.
@@ -30,7 +30,7 @@ The following code prints the array.
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 print(id, cx, cy)
 ```
-### Installation
+## Installation
 (Optional) Setup a virtual environment to install necessary packages.
 ``` commandline
 virtualenv .venv
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```
 Run Program!
 
-### Usage
+## Usage
 This program is simple and can be run using command line in system where python is already installed
 ```shell
 Python main.py
@@ -57,22 +57,23 @@ cap = cv2.VideoCapture(0) # for inbuilt webcam (internal)
 #or
 cap = cv2.VideoCapture(1) # for external webcam
 ```
-### Support
+## Support
 You can contact Author for any support.
 * __Email__: [Mr. Sachin Singh](mailto:sachinsinghcad@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 * __Discord__: **sachin_singh#4558**
-### Acknowledgement 
+
+## Acknowledgement 
 I Would like to give credits to 
 * Mediapipe developers for contributing the best open source computer vision library.[Website](https://google.github.io/mediapipe/)
 * Murtaza's Workshop - Robotics and AI. [Website](https://www.computervision.zone/courses/hand-tracking/
 )
- ### Road Map
+ ## Road Map
 1. We can replace kiosk monitor touch using this application.
 2. Touch-less User Interface (TUI) can be generated.
 
-### License
+## License
 This project is completely open-source and does not require any license to use it.
 
-### Project Status
+## Project Status
 This project is currently under-development.There will be future improvements. 
 * last Modification:- 08/11/2021 (mm/dd/yy)
