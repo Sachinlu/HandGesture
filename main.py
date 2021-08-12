@@ -1,8 +1,3 @@
-"""    REFERENCE
-Murtaza's Workshop - Robotics and AI
-Date 08/11/2021 (mm/dd/yy)
-https://www.computervision.zone/courses/hand-tracking/
-"""
 import cv2  # import opencv for the project
 import mediapipe as mp  # import mediapipe platform for hand gesture
 
