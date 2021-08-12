@@ -1,4 +1,4 @@
-## Deriving HandGesture Detection using computer vision (v 1.0)
+## Deriving Live Hand Detection using computer vision (v 1.0)
 Computer vision is the most popular field today. 
 Hand Gesture is one of the most advance ongoing Research. 
 MediaPipe is open source library developed by google to understand the 
