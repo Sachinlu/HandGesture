@@ -1,8 +1,7 @@
 ## Deriving Live Hand Detection using computer vision (v 1.0)
 Computer vision is the most popular field today. 
 Hand Gesture is one of the most advance ongoing Research. 
-MediaPipe is open source library developed by google to understand the 
-fundamentals of computer vision.
+MediaPipe is an open-source library developed by Google to understand the fundamentals of computer vision.
 
 ## Files
 - Img-----------------> Sample Image taken from main.py output.
@@ -11,12 +10,12 @@ fundamentals of computer vision.
 - Requirement.txt--> Required imports to run the program successfully.
 
 ## Description
-Hand Gesture detection is possible using various ML model.
-Our model has two main ML model running in parallel. 
-Mediapipe is very advance cv library, developed by google.
+Hand Gesture detection is possible using various ML models.
+Our model has two main ML models running in parallel. 
+Mediapipe is a very advanced cv library, developed by google
 [ visit the website for information](https://google.github.io/mediapipe/solutions/hands.html "Mediapipe Hands"). 
-The aim of main.py is to detect hand(s) in the 3d plane and return its (x, y, z) coordinates.
-Any hand(s) has 22 points (0 - 21) as shown below.
+The aim of _main.py_ is to detect hand(s) in the 3d plane and return its (x, y, z) coordinates.
+Any hand(s) has 21 points (0 - 20) as shown below.
 
 ![MediaPipe_hands](https://google.github.io/mediapipe/images/mobile/hand_landmarks.png)
 Main.py returns an array (Hand_point, X-axis, Y-axis). 
@@ -31,7 +30,7 @@ The following code prints the array.
                 print(id, cx, cy)
 ```
 ## Installation
-(Optional) Setup a virtual environment to install necessary packages.
+(Optional) setup a virtual environment to install necessary packages.
 ``` commandline
 virtualenv .venv
 source .venv/bin/activate
@@ -76,4 +75,4 @@ This project is completely open-source and does not require any license to use i
 
 ## Project Status
 This project is currently under-development.There will be future improvements. 
-* last Modification:- 08/11/2021 (mm/dd/yy)
+* Last modification:- 08/13/2021 (mm/dd/yy)
